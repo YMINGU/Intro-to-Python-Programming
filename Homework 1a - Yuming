@@ -1,3 +1,7 @@
+*.cs linguist-language=python
+*.ico linguist-language=python
+
+
 #########################################################
 ### EXECUTE THIS CELL BEFORE YOU  TEST YOUR SOLUTIONS ###
 #########################################################
