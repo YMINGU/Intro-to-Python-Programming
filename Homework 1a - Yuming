@@ -1,0 +1,178 @@
+#########################################################
+### EXECUTE THIS CELL BEFORE YOU  TEST YOUR SOLUTIONS ###
+#########################################################
+
+import imp
+sol = imp.load_compiled("sol", "./sol.py")
+from nose.tools import assert_equal
+
+"""Calculate the result of 3.93 multiplied by 4901 and save it in a variable named 'q1', then print it out."""
+# your code here
+q1=3.93*4901;
+
+print(q1)
+
+##########################
+### TEST YOUR SOLUTION ###
+##########################
+# Note: All test cases are read-only
+
+assert_equal(q1, sol.q1)
+print("Success!")
+
+"""Calculate the result of 215 divided by 6 and save it in a variable named 'q2', then print it out."""
+# your code here
+q2=215/6;
+
+print(q2)
+
+##########################
+### TEST YOUR SOLUTION ###
+##########################
+
+assert_equal(q2, sol.q2)
+print("Success!")
+
+"""Calculate the result of 3 divided by 0.3 and save it in a variable named 'q3', then print it out."""
+# your code here
+q3=3/0.3
+
+print(q3)
+
+##########################
+### TEST YOUR SOLUTION ###
+##########################
+
+assert_equal(q3, sol.q3)
+print("Success!")
+
+"""Calculate the remainder of 215 divided by 6 and save it in a variable named 'q4', then print it out."""
+
+# your code here
+q4=215%6
+
+print(q4)
+
+##########################
+### TEST YOUR SOLUTION ###
+##########################
+
+assert_equal(q4, sol.q4)
+print("Success!")
+
+"""Calculate the value of 9 raised to the 12th power and save it in a variable named 'q5', then print it out."""
+# your code here
+q5=9**12;
+print(q5)
+
+##########################
+### TEST YOUR SOLUTION ###
+##########################
+
+assert_equal(q5, sol.q5)
+print("Success!")
+
+"""Calculate the nearest integer of 3.5 (convert 3.5 to an integer) and save it in a variable named 'q6', then print it out."""
+# your code here
+q6=int(3.5);
+print(q6)
+
+##########################
+### TEST YOUR SOLUTION ###
+##########################
+
+assert_equal(q6, sol.q6)
+print("Success!")
+
+"""Calculate the data type of "False" (notice the quotes around the word False!) and save it in a variable named 'q7', then print it out."""
+# your code here
+q7=type("False")
+print(q7)
+
+##########################
+### TEST YOUR SOLUTION ###
+##########################
+
+assert_equal(q7, sol.q7)
+print("Success!")
+
+"""Calculate the data type of True and save it in a variable named 'q8', then print it out."""
+# your code here
+q8=type(True);
+print(q8)
+
+##########################
+### TEST YOUR SOLUTION ###
+##########################
+
+assert_equal(q8, sol.q8)
+print("Success!")
+
+"""Calculate the data type of the result of 1000 divided by 10 and save it in a variable named 'q9', then print it out."""
+# your code here
+q9=type(1000/10);
+print(q9)
+
+##########################
+### TEST YOUR SOLUTION ###
+##########################
+
+assert_equal(q9, sol.q9)
+print("Success!")
+
+"""Cast the value of 6.3 divided by 3.8 to an integer. Save it in a variable named 'q10', then print it out."""
+# your code here
+q10=int(6.3/3.8);
+
+print(q10)
+
+##########################
+### TEST YOUR SOLUTION ###
+##########################
+
+assert_equal(q10, sol.q10)
+print("Success!")
+
+"""Concatenate the strings 'James', 'Brian', and 'Patrick' - store the result in a variable called 'q11', then print it out. 
+Make sure to add a single empty space between the names!"""
+# your code here
+q11="James "+"Brian "+"Patrick";
+print(q11)
+
+##########################
+### TEST YOUR SOLUTION ###
+##########################
+
+assert_equal(q11, sol.q11)
+print("Success!")
+
+"""Make the following string correct, storing it in a variable named 'q12':
+q12 = "4 % 2 = " + (4 % 2))"""
+# your code here
+q12 = "4 % 2 = " + str(4 % 2)
+
+print(q12)
+
+##########################
+### TEST YOUR SOLUTION ###
+##########################
+
+assert_equal(q12, sol.q12)
+print("Success!")
+
+"""Save the following quote, (including the double quotes), in a variable called 'q13', then print it:
+Albert Einstein's best quote is \"I have no special talent. I am only passionately curious.\""""
+
+##########################
+### TEST YOUR SOLUTION ###
+##########################
+
+assert_equal(q13, sol.q13)
+print("Success!")
+
+
+
+
+
+
+
